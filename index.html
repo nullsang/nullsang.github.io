@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
+    http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
 	<title>Live2D！把可爱的看板娘扑捉到你的博客去吧！</title>
     <link rel="stylesheet" href="./live2d/css/live2d.css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div id="landlord">
@@ -22,5 +25,16 @@
 <script type="text/javascript">
     loadlive2d("live2d", "./live2d/model/seele/model.json");
 </script>
+	<audio controls autoplay>
+    <source src="mp3/yinyue.mp3">
+</audio>
+
+<div id="background" class="wall"></div>
+<div id="midground" class="wall"></div>
+<div id="foreground" class="wall"></div>
+<div id="top" class="wall"></div>
+<div style="text-align:center;">
+<p>更多源码：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
 </body>
 </html>
