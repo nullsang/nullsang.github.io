@@ -1,11 +1,15 @@
 html,body{
+    height:100%;
     margin: 0;
-    padding: 0;
+    font-size: 24px;
+    color: #fff;
+    font-family: '微软雅黑';
+    line-height: 50px;
+    text-align: center
 }
-/*满天星*/
 audio{
-    z-index: 5;
-    position: absolute;
+    position: fixed;
+    left: 30px;
     bottom: 0;
     opacity: 0.1;
     -webkit-transition: all 2s;
@@ -13,56 +17,31 @@ audio{
     -ms-transition: all 2s;
     -o-transition: all 2s;
     transition: all 2s;
+	z-index: 999;
 }
 audio:hover{
     opacity: 1;
 }
-.wall{
-    position: absolute; 
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+
+#img-box{
+	position:absolute;
+	background-color:#afa1a1;
+	width:100%;
+	height:100%;
+	z-index: -999;
 }
-div#background{
-    background: url("../img/mea.png")no-repeat;
-    -webkit-animation: dd 100s linear infinite;
-    -moz-animation: dd 100s linear infinite;
-    -o-animation: dd 100s linear infinite;
-    animation: dd 100s linear infinite;
-    background-size: coverz;
-	position: absolute;
-    left: 0;
-    top: 0;
-    width: 30%;
-    height: 100%;;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
+
+#img-box img{
+	width:auto;
+	height:auto;
+	max-width: auto;
+	max-height: 100%;
+	min-height: 500px;
+	display : block;
+	z-index: -998;
 }
-div#midground{
-    background: url("../img/midground.png");
-    z-index: 1;
-    -webkit-animation: cc 100s linear infinite;
-    -moz-animation: cc 100s linear infinite;
-    -o-animation: cc 100s linear infinite;
-    animation: cc 100s linear infinite;
-}
-div#foreground{
-    background: url("../img/foreground.png");
-    z-index: 2;
-    -webkit-animation: cc 153s linear infinite;
-    -o-animation: cc 153s linear infinite;
-    -moz-animation: cc 153s linear infinite;
-    animation: cc 153s linear infinite;
-}
-div#under {
-	background-color:#27343E; 
-    z-index: -4;
-    -webkit-animation: dd 100s linear infinite;
-    -o-animation: dd 100s linear infinite;
-    animation: da 100s linear infinite;
-}
+
+
 @-webkit-keyframes cc {
     from{
         background-position: 0 0;
