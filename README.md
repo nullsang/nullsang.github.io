@@ -1,7 +1,8 @@
-[![Website](https://img.shields.io/website-up-down-green-red/http/i.dmego.me.svg)](http://i.dmego.me/)
+﻿[![Website](https://img.shields.io/website-up-down-green-red/http/i.dmego.me.svg)](http://i.dmego.me/)
 [![License](https://img.shields.io/github/license/dmego/home.github.io.svg)](/LICENSE)
 [![Say Thanks](https://img.shields.io/badge/Say-Thanks!-1EAEDB.svg)](https://saythanks.io/to/dmego)
 
+########################################（原生）########################################
 ### 个人主页
 >这是我的个人主页
 
@@ -30,3 +31,14 @@
 ### 更新时间
 
 >2019-1-16
+
+*********************************************************（改变）*********************************************************
+>修改了名称、超链接以及图片
+
+*** 注
+所有代码均为开源
+图片归属权为阿里巴巴“iconfont”以及“bilibili：楽弌思慕        https://space.bilibili.com/7738622/”
+
+*** 更新时间
+
+>2019-4-12
